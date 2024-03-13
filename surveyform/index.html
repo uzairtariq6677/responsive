@@ -1,0 +1,47 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+    <h1 id='title'>squad survey</h1>
+     <p id='description'>what do you think about our free code camp</p>
+  </header>
+  <main>
+      <form id='survey-form'>
+<label for='name' id='name-label'>Please enter your name:</label>
+ <input type='text' id='name' placeholder='Please enter your name' required>
+  <hr>
+  <label for='email' id='email-label'>Please enter Your Email:</label>
+  <input type='email' id='email'  placeholder='Please enter your email' required>
+  <hr>
+  <label for='number' id='number-label'>Please enter Your Age:</label>
+  <input type='number' id='number'  placeholder='Please enter your Age' min=1 max=25 required>
+<hr>
+<label for='dropdown'>Cake or coffee</label><select id='dropdown'>
+  <option>Cake</option>
+   <option>Coffee</option>
+</select>
+<hr>
+<label>Egg or Milk<label>
+<input type='radio' name='radiogroup' id='eggs' value=0 >
+<label for='eggs'>Eggs</label>
+<input type='radio' name='radiogroup' id='milk' value=1>
+<label for='milk'>Milk</label>
+<hr>
+<label>bread and butter<label>
+<input type='checkbox' value=0 id='pencake' >
+<label for='pencake'>pencake</label>
+<input type='checkbox' value=1 id='butter' >
+<label for='butter'>butter</label>
+<hr>
+<textarea>please enter your additional comments
+ 
+</textarea>
+<hr>
+ <input id='submit' type='submit'>
+ </form>
+ 
+  </body>
+  <html>
